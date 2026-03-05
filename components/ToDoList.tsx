@@ -1,6 +1,7 @@
 import React from "react";
 import { ScrollView, Pressable, View, Text } from "react-native";
 import { StyleSheet } from "react-native";
+
 export default function ToDoList({ tasks }: { tasks: string[] }) {
   return (
     <ScrollView>
